@@ -1,0 +1,38 @@
+/* ini selector universal */
+* {
+    font-family: Tahoma;
+}
+
+/* selector id */
+#artikel-1 {
+    color: green;
+  }
+ 
+  #artikel-2 {
+    color: greenyellow;
+}
+
+/* selector class */
+
+.penulis {
+    color: rgb(255, 0, 0);
+  }
+
+  .tanggal {
+    background: linear-gradient(90deg, rgb(205, 40, 238) 0%, rgb(152, 105, 206) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* selector tag */
+
+  span {
+    color: magenta;
+}
+h3 {
+    font-size: 10px;
+}
+
+h3+p {
+    color: rgb(158, 150, 158);
+}
